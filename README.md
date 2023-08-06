@@ -23,6 +23,7 @@
 - поддержка выбора нескольких файлов/папок (в настоящее время плагин способен работать только с одним файлом/папкой под курсором)
 - удаление непустых папок
 - поддержка других подобных приложений командной строки (например, ftp)
+- на некоторых роутерах нет sftp, но есть ssh и scp. хорошо бы поддерживать и работу через них тоже
 - справка
 - языки/переводы
 
@@ -59,6 +60,7 @@ That still does not (but planned in future)?
 - selection support (currently plugin is capable working with one file/folder under a cursor only)
 - removing non empty folders
 - support for the other similar tools (like ftp)
+- some routers lacks sftp tool, but have ssh and scp. if possible, we should support using those instead of sftp
 - help
 - languages/translations
 
