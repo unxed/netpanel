@@ -563,6 +563,7 @@ void ReadFileLines(int fd, DWORD FileSizeLow, TCHAR **argv, TCHAR *args, UINT *n
 		return Panel->GetFiles(PanelItem, ItemsNumber, Move, DestPath, OpMode);
 	}
 
+    /*
 	SHAREDSYMBOL int WINAPI
 	EXP_NAME(SetFindList)(HANDLE hPlugin, const struct PluginPanelItem *PanelItem, int ItemsNumber)
 	{
@@ -570,6 +571,7 @@ void ReadFileLines(int fd, DWORD FileSizeLow, TCHAR **argv, TCHAR *args, UINT *n
 		NetPanel *Panel = (NetPanel *)hPlugin;
 		return (Panel->SetFindList(PanelItem, ItemsNumber));
 	}
+    */
 
 	SHAREDSYMBOL int WINAPI EXP_NAME(ProcessEvent)(HANDLE hPlugin, int Event, void *Param)
 	{

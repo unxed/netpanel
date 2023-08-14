@@ -61,7 +61,7 @@ public:
 	int PutOneFile(const TCHAR *SrcPath, PluginPanelItem &PanelItem);
 	int PutOneFile(const TCHAR *FilePath);
 
-	int SetFindList(const struct PluginPanelItem *PanelItem, int ItemsNumber);
+//	int SetFindList(const struct PluginPanelItem *PanelItem, int ItemsNumber);
 	int ProcessEvent(int Event, void *Param);
 	int ProcessKey(int Key, unsigned int ControlState);
 	static bool GetFileInfoAndValidate(const TCHAR *FilePath, FAR_FIND_DATA *FindData, int Any);

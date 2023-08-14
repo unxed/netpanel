@@ -648,6 +648,7 @@ void NetPanel::CommitPutFiles(HANDLE hRestoreScreen, int Success)
 	Info.RestoreScreen(hRestoreScreen);
 }
 
+/*
 int NetPanel::SetFindList(const struct PluginPanelItem *PanelItem, int ItemsNumber)
 {
 	fprintf(stderr, "SetFindList\n");
@@ -671,6 +672,7 @@ int NetPanel::SetFindList(const struct PluginPanelItem *PanelItem, int ItemsNumb
 	UpdateNotNeeded = TRUE;
 	return (TRUE);
 }
+*/
 
 void NetPanel::FindSearchResultsPanel()
 {
