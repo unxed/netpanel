@@ -37,6 +37,8 @@ add_subdirectory (netpanel)
 
 Потребуется компилятор, поддерживающий C++17 (gcc 7+, clang 5+).
 
+См. также: https://github.com/elfmz/far2l/issues/1819
+
 ---
 
 network plugin for far2l (currently sftp only). Works as a wrapper against command line sftp tool, so no dependencies needed.
@@ -73,3 +75,5 @@ add_subdirectory (netpanel)
 to the end of root CMakeLists.txt
 
 C++17 supporting compiler is requred (gcc 7+, clang 5+).
+
+See also: https://github.com/elfmz/far2l/issues/1819
